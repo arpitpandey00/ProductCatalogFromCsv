@@ -1,0 +1,16 @@
+C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.exe
+C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.deps.json
+C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.runtimeconfig.json
+C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.runtimeconfig.dev.json
+C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.dll
+C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.pdb
+C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.csprojAssemblyReference.cache
+C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.AssemblyInfoInputs.cache
+C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.AssemblyInfo.cs
+C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.csproj.CoreCompileInputs.cache
+C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.dll
+C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.pdb
+C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.genruntimeconfig.cache
+C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\product.Data.dll
+C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\product.Data.pdb
+C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.csproj.CopyComplete

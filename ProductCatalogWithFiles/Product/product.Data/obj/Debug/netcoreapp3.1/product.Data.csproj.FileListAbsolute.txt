@@ -1,0 +1,9 @@
+C:\work\ProductCatalogWithFiles\Product\product.Data\bin\Debug\netcoreapp3.1\product.Data.deps.json
+C:\work\ProductCatalogWithFiles\Product\product.Data\bin\Debug\netcoreapp3.1\product.Data.dll
+C:\work\ProductCatalogWithFiles\Product\product.Data\bin\Debug\netcoreapp3.1\product.Data.pdb
+C:\work\ProductCatalogWithFiles\Product\product.Data\obj\Debug\netcoreapp3.1\product.Data.csprojAssemblyReference.cache
+C:\work\ProductCatalogWithFiles\Product\product.Data\obj\Debug\netcoreapp3.1\product.Data.AssemblyInfoInputs.cache
+C:\work\ProductCatalogWithFiles\Product\product.Data\obj\Debug\netcoreapp3.1\product.Data.AssemblyInfo.cs
+C:\work\ProductCatalogWithFiles\Product\product.Data\obj\Debug\netcoreapp3.1\product.Data.csproj.CoreCompileInputs.cache
+C:\work\ProductCatalogWithFiles\Product\product.Data\obj\Debug\netcoreapp3.1\product.Data.dll
+C:\work\ProductCatalogWithFiles\Product\product.Data\obj\Debug\netcoreapp3.1\product.Data.pdb

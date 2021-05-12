@@ -9,44 +9,18 @@ namespace product.Data.OperationOnEntities
 {
     public class OperationOnCategories
     {
-        public static List<Category> categoryList = new List<Category>
+        public static List<Category> categoryList = new List<Category>();
+        public OperationOnCategories()
         {
-                new Category
-                {
-                    Name="Grocery",
-                    Description="Necessary Items",
-                    ShortCode="gr00"
-                },
-                new Category
-                {
-                    Name="Food",
-                    Description="Daily accomodation",
-                    ShortCode="fd01"
-                },
-              new Category   {
-       Name="Technology",
-    Description= "Gadgets",
-    ShortCode="Tech"
-  },
-  new Category{
-
-    Name="Grocery",
-    Description="Household Items",
-    ShortCode="Groc"
-  },
-  new Category{
-       Name="Toys",
-    Description= "For Kids",
-    ShortCode="tykd"
-  },
-  new Category{
-
-    Name="Stationary",
-    Description= "Study",
-    ShortCode="stud"
-  },
-        };
-
+            categoryList.Clear();
+            Category.AutoIncrement = 0;
+            List<string> CategoryDataFromFile =CsvFileProcessor.ReadCategoriesData();
+            foreach(var categorydata in CategoryDataFromFile)
+            {
+                var values = categorydata.Split(',');
+                categoryList.Add(new Category{ Name = $"{values[1]}", ShortCode = $"{values[2]}", Description = $"{values[3]}" } );
+            }
+        }
         ShortCodeValidation shortcodevalidation = new ShortCodeValidation();
         CategoryProductRequired necessary = new CategoryProductRequired();
         public void AddCategory()

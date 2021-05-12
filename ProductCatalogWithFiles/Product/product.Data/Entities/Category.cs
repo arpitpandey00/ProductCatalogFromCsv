@@ -7,7 +7,7 @@ namespace product.Data.Entities
     public class Category
     {
         public static int AutoIncrement = 0;
-        public int Id { get; }
+        public int Id { get;  }
         public string Name { get; set; }
 
         public string ShortCode { get; set; }

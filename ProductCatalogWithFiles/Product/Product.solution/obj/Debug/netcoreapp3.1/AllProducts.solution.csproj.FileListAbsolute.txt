@@ -1,0 +1,17 @@
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\AllProducts.solution.csprojAssemblyReference.cache
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\AllProducts.solution.AssemblyInfoInputs.cache
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\AllProducts.solution.AssemblyInfo.cs
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\AllProducts.solution.csproj.CoreCompileInputs.cache
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\AllProducts.solution.exe
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\AllProducts.solution.deps.json
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\AllProducts.solution.runtimeconfig.json
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\AllProducts.solution.runtimeconfig.dev.json
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\AllProducts.solution.dll
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\AllProducts.solution.pdb
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\CsvHelper.dll
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\product.Data.dll
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\product.Data.pdb
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\AllProducts.solution.csproj.CopyComplete
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\AllProducts.solution.dll
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\AllProducts.solution.pdb
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\AllProducts.solution.genruntimeconfig.cache

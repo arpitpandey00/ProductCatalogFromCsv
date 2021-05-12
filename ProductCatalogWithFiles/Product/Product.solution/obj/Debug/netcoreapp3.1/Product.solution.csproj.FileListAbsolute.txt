@@ -14,3 +14,20 @@ C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1
 C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\product.Data.dll
 C:\work\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\product.Data.pdb
 C:\work\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.csproj.CopyComplete
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.exe
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.deps.json
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.runtimeconfig.json
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.runtimeconfig.dev.json
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.dll
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\Product.solution.pdb
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\product.Data.dll
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\product.Data.pdb
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.csprojAssemblyReference.cache
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.AssemblyInfoInputs.cache
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.AssemblyInfo.cs
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.csproj.CoreCompileInputs.cache
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.csproj.CopyComplete
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.dll
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.pdb
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\obj\Debug\netcoreapp3.1\Product.solution.genruntimeconfig.cache
+C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\bin\Debug\netcoreapp3.1\CsvHelper.dll

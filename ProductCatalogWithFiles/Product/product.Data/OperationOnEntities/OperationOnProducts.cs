@@ -5,61 +5,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
+
 namespace product.Data.OperationOnEntities
 {
     public class OperationOnProducts
     {
-        public static List<Product> ProductsList = new List<Product>
+
+        public static List<Product> ProductsList = new List<Product>();
+        public OperationOnProducts()
         {
-           new Product  {
-     // Id:1,
-      Name="Pen",
-      Manufacturer="Natraj",
-      Description="Study Material",
-      SellingPrice=12,
-      ShortCode="pn12",
-      ProductCategory="Stationary"
-    },
-    new Product{
-     // Id:2,
-      Name="Hanger",
-      Manufacturer="Maya",
-      Description="For Clothes",
-      SellingPrice=30,
-     // ShortCode:"hg30",
-      ProductCategory="Grocery"
-    },
-    new Product{
-      //Id:3,
-      Name="Mobile",
-      Manufacturer="Oneplus",
-      Description="Essintail item",
-      SellingPrice=30000,
-      ShortCode="op30",
-      ProductCategory="Technology"
-    },
-    new Product{
-     // Id:4,
-      Name="Smart Watch",
-      Manufacturer="Mi",
-      Description="Health Measuring",
-      SellingPrice=10000,
-      ShortCode="mi10",
-      ProductCategory="Technology"
-    },
-    new Product{
-     // Id:5,
-      Name="Pencil",
-      Manufacturer="Apsara",
-      Description="Study Material",
-      SellingPrice=7,
-      ShortCode="pn07",
-      ProductCategory="Stationary"
-    }
-        };
+            ProductsList.Clear();
+            List<string> ProductDataFromFile = CsvFileProcessor.ReadProductsData();
+            foreach (var Productdata in ProductDataFromFile)
+            {
+                var values = Productdata.Split(',');
+                ProductsList.Add(new Product { Name = values[1], Manufacturer = values[2], ShortCode = values[3], ProductCategory = values[4], Description = values[5], SellingPrice = Convert.ToInt32(values[6]) });
+            }
+        }
         ShortCodeValidation shortCodeValidation = new ShortCodeValidation();
         PriceValidation priceValidation = new PriceValidation();
-        OperationOnCategories operationCategory = new OperationOnCategories();
+        
         ProductPropertyRequired necessary = new ProductPropertyRequired();
 
         public void AddProduct()
@@ -87,8 +53,10 @@ namespace product.Data.OperationOnEntities
             if (iscategoryPresent == false)
             {
                 Console.WriteLine("\nThis category is not Added You Have To Add This Category\n");
+                OperationOnCategories operationCategory = new OperationOnCategories();
                 operationCategory.AddCategory();
             }
+          
             ProductsList.Add(new Product
             {
                 Name = name,
@@ -101,7 +69,7 @@ namespace product.Data.OperationOnEntities
             });
             Console.WriteLine("Product Added succesfully\n");
             Console.WriteLine("Press Enter TO Continue:");
-
+            
         }
         public void DisplayAllProducts()
         {

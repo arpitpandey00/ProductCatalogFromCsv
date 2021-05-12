@@ -1,6 +1,10 @@
-﻿using product.Data.OperationOnEntities;
+﻿using CsvHelper;
+using CsvHelper.Configuration;
+using product.Data.OperationOnEntities;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
 using System.Text;
 
 namespace product.Data.Entities
@@ -35,7 +39,27 @@ namespace product.Data.Entities
                     break;
                 case "c":
                     exit = true;
-                    Console.WriteLine("See You Soon\n Stay Safe");
+                        var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+                        {
+                            TrimOptions = TrimOptions.Trim,
+                            Comment = '@',
+                            AllowComments = true,
+
+                        };
+                        string CategoryDataPath = @"C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\Data\AllCategoriesData.csv";
+                        using (StreamWriter write = new StreamWriter(CategoryDataPath))
+                        using (CsvWriter writing = new CsvWriter(write,config) )
+                        {
+                            writing.WriteRecords(OperationOnCategories.categoryList);
+                        }
+                        string ProductDataPath = @"C:\work\day 2 revision\ProductCatalogWithFiles\Product\Product.solution\Data\AllProductsData.csv";
+                        using (StreamWriter writeprod  = new StreamWriter(ProductDataPath))
+                        using (CsvWriter writingprod = new CsvWriter(writeprod, config))
+                        {
+                            writingprod.WriteRecords(OperationOnProducts.ProductsList);
+                        }
+
+                        Console.WriteLine("See You Soon\n Stay Safe");
                     break;
                 default:
                     Console.WriteLine("Invalid Operatoin\nTry Again");
